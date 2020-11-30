@@ -1,0 +1,172 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/*Remove this rule, this is only for demo purposes to make the boxes black with white text
+The line height on the <p> tag gives each box a height value*/
+
+/*basic reset*/
+/*browsers have built in values for elements so we'll reset a few things to zero, you can add to this or remove items as needed*/
+
+div,body,header,footer,section,article,nav 
+{ 
+	margin: 0; 
+	padding: 0; 
+}	
+
+img 
+{ 
+	border: none; /*Remove border if image is a link*/
+	margin: 0; 
+	padding: 0; 
+}
+
+/*html selectors*/
+
+body 
+{
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: 18px;
+	color: #333;
+}
+
+p
+{
+	font-size: 18px;
+	color: #000;
+	text-align: center;
+	margin:0;
+	line-height: 50px;
+}
+
+/*a:link is for not visited(standard unclicked link), 
+a:visited is for visited, and just a applies to both.*/
+/*a will also style anchor links*/
+
+a:link, a:visited 
+{ 
+ 	text-decoration:none; 	
+}
+
+a:hover, a:active 
+{ 
+	text-decoration:none; 
+}
+
+/*hide elements from browser but show for doc outline*/
+
+.hidden
+{
+	display: none;
+}
+
+#topBar
+{
+	background: red;
+	height: 20px;
+}
+
+#container
+{
+	margin: 0 auto;
+	width: 920px;
+	height: 400px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.mainHeader
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin top: 40px;
+	padding-bottom: 40px;
+}
+
+.logo
+{
+	width: 200px;
+	height: 50px;
+	background-color: green;
+	color: #000;
+	margin-top: 20px;
+	margin-left: 10px;
+}
+
+.mainNav
+{
+	width: 500px;
+	height: 50px;
+	background: yellow;
+	color: #000;
+	margin-top: 20px;
+	margin-right: 100px;
+}
+
+.promo
+{
+	height: 500px;
+	background-color: blue;
+	margin-left: 10px;
+	margin-right: 100px;
+	margin-bottom: 40px;
+}
+
+.productInfo
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-evenly;
+	height: 300px;
+}
+
+.productLeft
+{
+	margin-right: 10px;
+	margin-top:10px;
+	width: 400px;
+	background-color: red;
+}
+
+.productRight
+{
+	margin-right: 10px;
+	margin-top:10px;
+	width: 400px;
+	background-color: green;
+	margin-right: 100px;
+}
+
+.mainFooter
+{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	height: 200px;
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.footerNav
+{
+	width: 500px;
+	height: 50px;
+	margin-left: 10px;
+	margin-top: 50px;
+	background-color: #333;
+}
+
+.copyright
+{
+	width: 200px;
+	height: 50px;
+	margin-right: 100px;
+	background-color: orange;
+	margin-top: 50px;
+}
+
+
+
+
+
+
